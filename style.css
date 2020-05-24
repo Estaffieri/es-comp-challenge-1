@@ -1,15 +1,37 @@
-
+/*--------------Normalize thing----------*/
 
 /* <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css"> */
 
-
 /*~~~~~~~~~~~ MAIN STYLING ~~~~~~~~~~~*/
-body {
-  margin: 0;
-  background: ghostwhite;
+* {
+  box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #596e79;
+  padding: 60px;
+  margin: 0px;
+}
+
+body {
+  background-color: #e2dedb;
+}
+
+h2 {
+  font-family:sans-serif;
+  color: #596e79;
+
+
+
+}
+
+/*-~-~-~-~-~- NAV STYLING -~-~-~-~-~-*/
+
 .nav {
+
 
 }
 
@@ -24,11 +46,21 @@ body {
 /*~~~~~~~~~~~ CARD SECTION ~~~~~~~~~~~*/
 .container {
   display: flex;
-  border-style: dotted;
-  border-color:black;
+  flex-flow:row wrap;
+  justify-content: center;
+  
+  height:
 
 }
 
 article {
+  box-shadow: gray;
 
+}
+.card{
+  flex:1;
+  background: #ffffff;
+  padding: 10px;
+  box-shadow: 2px,2px,2px,2px;
+  border-style: solid;
 }
