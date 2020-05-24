@@ -1,0 +1,34 @@
+
+
+/* <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css"> */
+
+
+/*~~~~~~~~~~~ MAIN STYLING ~~~~~~~~~~~*/
+body {
+  margin: 0;
+  background: ghostwhite;
+}
+
+.nav {
+
+}
+
+.button-style-A{
+
+}
+
+.button-style-B{
+
+}
+
+/*~~~~~~~~~~~ CARD SECTION ~~~~~~~~~~~*/
+.container {
+  display: flex;
+  border-style: dotted;
+  border-color:black;
+
+}
+
+article {
+
+}
