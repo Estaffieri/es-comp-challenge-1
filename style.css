@@ -46,10 +46,17 @@ h2 {
 /*~~~~~~~~~~~ CARD SECTION ~~~~~~~~~~~*/
 .container {
   display: flex;
-  flex-flow:row wrap;
+  flex-wrap: wrap;
   justify-content: center;
 
 
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
 }
 
 article {
