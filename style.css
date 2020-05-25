@@ -1,6 +1,6 @@
 /*--------------Normalize thing----------*/
 /* <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css"> */
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
   .container {
     margin: 1em 2em;
   }
@@ -8,48 +8,37 @@
   .wrapper {
     margin: 1em 2em;
   }
-}
-
-/*~~~~~~~~~~~ MAIN STYLING ~~~~~~~~~~~*/
-/* * {
-  box-sizing: border-box;
 } */
+/*~~~~~~~~~~~ MAIN STYLING ~~~~~~~~~~~*/
 header {
   background-color: #596e79;
-  align-self: center;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  min-width: 3000px;
-  min-height: 400px;
+  width: 100%;
+  height: 100%;
 }
 
-body {
+html, body {
+  box-sizing: border-box;
   background-color: white;
   font-family: sans-serif;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 100%;
 }
 
 h2 {
   font-family: sans-serif;
-  font-size: 6em;
   font-weight: lighter;
   color: #596e79;
 }
 
 .wrapper {
-  max-width: 3000px;
-  margin: 2em auto;
-  padding: 20px;
+  max-width: auto;
+  max-height: auto;
 }
 
-.page-name {
+/* .page-name {
   margin: 60px;
   padding: 0px;
-}
-
+} */
 /*-~-~-~-~-~- NAV STYLING -~-~-~-~-~-*/
 .nav {
   padding: 20px;
@@ -64,42 +53,91 @@ h2 {
 }
 
 /*~~~~~~~~~~~ CARD SECTION ~~~~~~~~~~~*/
-img {
-  height: 315px;
-  width: 650px;
-  vertical-align: top;
-  object-fit: cover;
-}
 
 article {
   box-sizing: content-box;
 }
 
-h5 {
+h6 {
   margin: 20px 0px 0px 20px;
-  font-size:1.5em;
+  font-size: 1.5em;
 }
 
 .container {
-  height: 2000px;
-  width: 3000px;
-  padding: 20px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
-  margin: auto;
   justify-content: center;
-  align-content: space-between;
+  align-content: space-evenly;
 }
 
 .card {
-  height: 875px;
-  width: 650px;
+  flex:1;
+  height: 100%;
+  width: auto;
   background: #ffffff;
-  margin: 30px;
+  margin: 10px;
   box-shadow: 3px 3px 5px 6px #ccc;
 }
+
+.card-content {
+  background: #fffff;
+}
+
+.card1 {
+  background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/karly-santiago-79Ut1cRYoQ0-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% auto;
+}
+
+.card2 {
+  background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/adam-jaime-dmkmrNptMpw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% auto;
+}
+.card3 {
+  background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/giuseppe-ruco-F4Bz3g_wdn8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% auto;
+}
+.card4 {
+  background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/jeremy-thomas-E0AHdsENmDg-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% auto;
+}
+.card5 {
+  background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/mcgill-library--xleXxEcvX8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% auto;
+}
+.card6 {
+  background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/annie-spratt-ku-12LzGjEw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% auto;
+}
+.card7 {
+  background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/jeremy-allouche-AcTtP4qX0bQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% auto;
+}
+.card8 {
+  background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/annie-spratt-nGOF86liuBw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% auto;
+}
+
 
 .subtitle {
   margin: 0px 0px 0px 20px;
@@ -112,19 +150,18 @@ h5 {
 
 .fill {
   margin: 20px;
-  padding: 10px;
+  padding: auto;
   background: #d3d3d3;
-  font-style:oblique;
-
+  font-style: oblique;
 }
 
 .origin {
-  font-variant:small-caps;
+  font-variant: small-caps;
   margin: 20px;
 }
 
 .boo-count {
-  font-variant:small-caps;
+  font-variant: small-caps;
   margin: 20px;
 }
 
