@@ -16,11 +16,10 @@
 } */
 header {
   background-color: #596e79;
+  align-self: center;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 60px;
-  margin: 0px;
   min-width: 3000px;
   min-height: 400px;
 }
@@ -52,42 +51,83 @@ h2 {
 }
 
 /*-~-~-~-~-~- NAV STYLING -~-~-~-~-~-*/
-.nav {}
+.nav {
+  padding: 20px;
+}
 
-.button-style-A {}
+.button-style-A {
+  padding: 5px;
+}
 
-.button-style-B {}
+.button-style-B {
+  padding: 5px;
+}
 
 /*~~~~~~~~~~~ CARD SECTION ~~~~~~~~~~~*/
 img {
   height: 315px;
-  width: 600px;
+  width: 650px;
   vertical-align: top;
   object-fit: cover;
-  object-position: 20%, 10px;
 }
 
 article {
   box-sizing: content-box;
 }
 
+h5 {
+  margin: 20px 0px 0px 20px;
+  font-size:1.5em;
+}
+
 .container {
-  height: 1500px;
-  width: 2500px;
+  height: 2000px;
+  width: 3000px;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
-  margin: inherit;
+  margin: auto;
   justify-content: center;
   align-content: space-between;
 }
 
 .card {
-  height: 825px;
-  width: 600px;
+  height: 875px;
+  width: 650px;
   background: #ffffff;
   margin: 30px;
   box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.subtitle {
+  margin: 0px 0px 0px 20px;
+  font-color: light-gray;
+}
+
+.blurb {
+  margin: 20px;
+}
+
+.fill {
+  margin: 20px;
+  padding: 10px;
+  background: #d3d3d3;
+  font-style:oblique;
+
+}
+
+.origin {
+  font-variant:small-caps;
+  margin: 20px;
+}
+
+.boo-count {
+  font-variant:small-caps;
+  margin: 20px;
+}
+
+.counter {
+  margin: 20px;
 }
