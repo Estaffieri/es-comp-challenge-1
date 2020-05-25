@@ -48,8 +48,7 @@ h2 {
   display: flex;
   flex-flow:row wrap;
   justify-content: center;
-  
-  height:
+
 
 }
 
@@ -58,7 +57,7 @@ article {
 
 }
 .card{
-  flex:1;
+  flex:3;
   background: #ffffff;
   padding: 10px;
   box-shadow: 2px,2px,2px,2px;
