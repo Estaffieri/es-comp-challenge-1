@@ -35,27 +35,24 @@ h2 {
   max-height: auto;
 }
 
-/* .page-name {
-  margin: 60px;
-  padding: 0px;
-} */
 /*-~-~-~-~-~- NAV STYLING -~-~-~-~-~-*/
 .nav {
-  padding: 20px;
+  padding: 5%;
 }
 
 .button-style-A {
-  padding: 5px;
+  padding: auto;
 }
 
 .button-style-B {
-  padding: 5px;
+  padding: auto;
 }
 
 /*~~~~~~~~~~~ CARD SECTION ~~~~~~~~~~~*/
-
 article {
   box-sizing: content-box;
+  /* margin: 1.5em; */
+  box-shadow: 3px 3px 5px 6px #ccc;
 }
 
 h6 {
@@ -64,9 +61,8 @@ h6 {
 }
 
 .container {
-  height: 100%;
-  width: 100%;
-  margin: auto;
+  height: 31.25em;
+  width: 43.75em;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -76,23 +72,25 @@ h6 {
 }
 
 .card {
-  flex:1;
-  height: 100%;
-  width: auto;
+  flex: 1;
+  height: 40%;
+  width: 20%;
+  margin: 1em;
   background: #ffffff;
-  margin: 10px;
-  box-shadow: 3px 3px 5px 6px #ccc;
 }
 
 .card-content {
-  background: #fffff;
+  /* background: #ffffff; */
+  width:100%
+
+
 }
 
 .card1 {
-  background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/karly-santiago-79Ut1cRYoQ0-unsplash.jpg");
   background-repeat: no-repeat;
-  background-position: top;
   background-size: 100% auto;
+  background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/karly-santiago-79Ut1cRYoQ0-unsplash.jpg");
+
 }
 
 .card2 {
@@ -101,43 +99,48 @@ h6 {
   background-position: top;
   background-size: 100% auto;
 }
+
 .card3 {
   background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/giuseppe-ruco-F4Bz3g_wdn8-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100% auto;
 }
+
 .card4 {
   background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/jeremy-thomas-E0AHdsENmDg-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100% auto;
 }
+
 .card5 {
   background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/mcgill-library--xleXxEcvX8-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100% auto;
 }
+
 .card6 {
   background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/annie-spratt-ku-12LzGjEw-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100% auto;
 }
+
 .card7 {
   background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/jeremy-allouche-AcTtP4qX0bQ-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100% auto;
 }
+
 .card8 {
   background-image: url("/Users/estellestaffieri/turing/es-comp-challenge-1/assets/annie-spratt-nGOF86liuBw-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100% auto;
 }
-
 
 .subtitle {
   margin: 0px 0px 0px 20px;
