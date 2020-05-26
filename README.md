@@ -19,15 +19,15 @@ This was a solo project to create a static comp of a sample webpage. As the layo
 
 **Challenges**
 
-\*
-\*
-\*
+\* Understanding Flexbox and how it organizes elements
+\* Adding responsive design to the design
+\* HTML that repeats as few times as possible
 
 **Wins**
 
-\*
-\*
-\*
+\* More hands on time with HTMl & CSS
+\* Learning more about Flexbox
+\* Looks better than other sites I've made to date.
 
 **Programming Languages Used**
 
@@ -40,6 +40,4 @@ CSS
 
 ![Original Comp](https://frontend.turing.io/assets/images/static-comp-challenge-2.jpg)
 
-![My Comp](<>)
-
-![Detail Views](<>)
+![My Comp](</Users/estellestaffieri/turing/es-comp-challenge-1/assets/Screen Shot 2020-05-25 at 9.45.34 PM.png>)
